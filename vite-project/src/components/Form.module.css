@@ -37,7 +37,11 @@
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.text{
-  color: red;
+.alerta{
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  background-color:rgba(240, 172, 160, 0.575) ;
 }
   

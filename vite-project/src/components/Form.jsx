@@ -66,8 +66,8 @@ function Form() {
                 <option value="Comedia" >Comedia</option>
             </select>
 
-            {error && <h5 className={styles.text}>Por favor chequea que la información sea correcta.</h5>}
-            
+            {error && <h5 className={styles.alerta}>Por favor chequea que la información sea correcta.</h5>}
+
             <div><button className={styles.button} type="submit">Enviar</button></div> 
         </div>
     </form>
